@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Enzo Ibrahim</title>
+
+    <!-- Police Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background-image: url('fond.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .container {
+            max-width: 67%;
+            margin: auto;
+            padding: 4rem 0 8rem 0;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.72);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            border-radius: 16px;
+            padding: 2rem 2.5rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(100, 150, 200, 0.3);
+            box-shadow: 0 4px 30px rgba(20, 50, 100, 0.1);
+        }
+
+        h1, h2, h3, h4, p, li {
+            color: #0d1f3c;
+            margin: 0;
+        }
+
+        h2 {
+            border-bottom: 2px solid #2e5fa3;
+            padding-bottom: 0.4rem;
+            margin-bottom: 1rem;
+        }
+
+        p, li {
+            color: #3a4a5c;
+            line-height: 1.7;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .grid-1 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        ul {
+            padding-left: 1.2rem;
+        }
+
+        iframe {
+            border-radius: 10px;
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- EN-TÊTE -->
+    <div class="card">
+        <h1 style="font-size: 2.6rem; font-weight: 700; margin-bottom: 0.2rem;">Enzo Ibrahim</h1>
+        <h3 style="color: #2e5fa3; font-weight: 400; font-size: 1.1rem; margin-bottom: 0.8rem;">
+            Étudiant — Collège de Bois-de-Boulogne | Passionné de mécanique automobile
+        </h3>
+        <p>
+            Email: ibrahimenzo11@gmail.com &nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/enzo-ibrahim-2bb1a13b4"
+               target="_blank"
+               style="color: #2e5fa3; text-decoration: none; font-weight: 600;">
+                <u>LinkedIn</u>
+            </a>
+        </p>
+    </div>
+
+    <!-- COMPÉTENCES -->
+    <div class="card">
+        <h2>Compétences techniques</h2>
+        <p>
+            <strong style="color: #2e5fa3;">Langages de Programmation :</strong> Python, Java, HTML, CSS<br>
+            <strong style="color: #2e5fa3;">Outils technologiques :</strong> Git, Excel, Word, PowerPoint, Streamlit, LucidChart<br>
+            <strong style="color: #2e5fa3;">Réalisation de plans et maquettes</strong>
+        </p>
+    </div>
+
+    <!-- PROJETS -->
+    <div class="card">
+        <h2>Mes Projets</h2>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div style="background: rgba(46,95,163,0.07); border-radius: 10px; padding: 1.2rem; border-left: 4px solid #2e5fa3;">
+                <h4>Réalisation d'une maquette</h4>
+                <ul>
+                    <li>Conversion de mesures des plans de la Maison Farnsworth de Mies Van Der Rohe pour une échelle à correspondance 1 : 100.</li>
+                    <li>Réalisation de la maquette 3D en fome-core</li>
+                </ul>
+            </div>
+
+            <div style="background: rgba(46,95,163,0.07); border-radius: 10px; padding: 1.2rem; border-left: 4px solid #2e5fa3;">
+                <h4>Projet d'intégration au cégep de Bois-de-Boulogne: Tensor Build</h4>
+                <p>Implémentation de concepts physiques pour créer un simulateur de résistance des matériaux.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAQUETTE IMAGES -->
+    <div class="card">
+        <h4>Maquette de la Maison Farnsworth de Mies Van Der Rohe</h4>
+
+        <div class="grid-3">
+            <img src="data:image/jpg;base64,REPLACE_IMG1">
+            <img src="data:image/jpg;base64,REPLACE_IMG2">
+            <img src="data:image/jpg;base64,REPLACE_IMG3">
+        </div>
+
+        <h4 style="margin-top: 1rem;">Compétences techniques apprises lors du projet: Maquette de la Maison Farnsworth</h4>
+
+        <ul>
+            <li>Pensée spatiale et modélisation: Passer d'un plan 2D à un objet 3D, transférable au CAD</li>
+            <li>Comportement structurel: La Maison Farnsworth repose entièrement sur huit colonnes d'acier et un plancher suspendu, sans murs porteurs.</li>
+            <li>Tolérance, précision de fabrication et écarts dimensionnels</li>
+            <li>Lecture et interprétation de plans techniques</li>
+        </ul>
+    </div>
+
+    <!-- TENSOR BUILD IMAGES -->
+    <div class="card">
+        <h4>Projet d'intégration cégep: Tensor Build</h4>
+        <h3 style="color: #4a5a6a; font-size: 0.9rem; font-weight: 600;">En collaboration avec Bogdan Mihai Dima et Mikaël Kortbaoui</h3>
+        <h3 style="color: #1a3a6b; font-size: 1.5rem; font-weight: 600; margin-top: 1rem;">Gallerie</h3>
+
+        <div class="grid-1">
+            <img src="data:image/png;base64,REPLACE_IMG6">
+            <img src="data:image/png;base64,REPLACE_IMG4">
+            <img src="data:image/png;base64,REPLACE_IMG5">
+        </div>
+    </div>
+
+    <!-- VIDEOS -->
+    <div class="card">
+        <h3>Vidéos de démonstration</h3>
+
+        <h4>Simulateur de contraintes 2D</h4>
+        <iframe src="https://www.youtube.com/embed/gcii7RJNnuk" allowfullscreen></iframe>
+
+        <h4 style="margin-top: 3rem;">Démonstration de la caméra en 3D</h4>
+        <iframe src="https://www.youtube.com/embed/0fqtiKZkj88" allowfullscreen></iframe>
+
+        <h4 style="margin-top: 3rem;">Simulateur de contraintes 3D</h4>
+        <iframe src="https://www.youtube.com/embed/kG5-4-kWp6U" allowfullscreen></iframe>
+    </div>
+
+    <!-- COMPÉTENCES TENSOR BUILD -->
+    <div class="card">
+        <h4>Compétences techniques apprises lors du projet: Tensor Build</h4>
+        <ul>
+            <li>Application de concepts physiques de résistance des matériaux pour créer un simulateur de contraintes en 2D et 3D.</li>
+            <li>Utilisation de la bibliothèque graphique OpenGL pour implémenter une caméra en 3D.</li>
+            <li>Collaboration efficace au sein d'une équipe de trois personnes.</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
 
