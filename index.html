@@ -39,7 +39,15 @@
 
         h1,
         h2,
-        h3,
+        h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #2e5fa3;
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 1rem;
+        }
+
         h4,
         p,
         li {
@@ -205,8 +213,8 @@
                 <div>
                     <p style="font-size: 13px; font-weight: 600; color: #0d1f3c; margin-bottom: 4px;">Analyse
                         tensorielle des contraintes</p>
-                    <p style="font-size: 13px;">Modélisation des états de contrainte 3D via le tenseur de Cauchy, calcul
-                        des contraintes principales et des cercles de Mohr.</p>
+                    <p style="font-size: 13px;">Modélisation des états de contrainte 3D et calcul
+                        des contraintes principales.</p>
                 </div>
                 <div>
                     <p style="font-size: 13px; font-weight: 600; color: #0d1f3c; margin-bottom: 4px;">Simulation
@@ -217,7 +225,8 @@
                 <div>
                     <p style="font-size: 13px; font-weight: 600; color: #0d1f3c; margin-bottom: 4px;">Critères de
                         défaillance</p>
-                    <p style="font-size: 13px;">Application des critères de Von Mises et Tresca pour identifier les
+                    <p style="font-size: 13px;">Application des concepts de résistances et de ruptures pour identifier
+                        les
                         zones critiques d'un matériau sous charge.</p>
                 </div>
             </div>
@@ -228,22 +237,23 @@
             <hr style="border: none; border-top: 1px solid rgba(100,150,200,0.3); margin: 0 0 1rem;">
             <div class="grid-3">
                 <div>
-                    <p style="font-size: 13px; font-weight: 600; color: #0d1f3c; margin-bottom: 4px;">Calcul matriciel &
-                        algèbre linéaire</p>
-                    <p style="font-size: 13px;">Manipulation de matrices de rigidité et résolution de systèmes linéaires
-                        de grande taille.</p>
+                    <p style="font-size: 13px; font-weight: 600; color: #0d1f3c; margin-bottom: 4px;">Détection et
+                        cartographie des collisions</p>
+                    <p style="font-size: 13px;">Construction d'un tableau localisant toutes les collisions entre formes,
+                        représentées sous forme de plans de dégradation progressif selon la profondeur de pénétration de
+                        l'objet en collision.</p>
                 </div>
                 <div>
                     <p style="font-size: 13px; font-weight: 600; color: #0d1f3c; margin-bottom: 4px;">Rendu 3D avec
-                        OpenGL</p>
-                    <p style="font-size: 13px;">Implémentation d'une caméra 3D et rendu temps réel des champs de
-                        contraintes via la bibliothèque graphique OpenGL.</p>
+                        PyVista</p>
+                    <p style="font-size: 13px;">Implémentation d'une caméra 3D et rendu des champs de
+                        contraintes via la bibliothèque graphique PyVista.</p>
                 </div>
                 <div>
-                    <p style="font-size: 13px; font-weight: 600; color: #0d1f3c; margin-bottom: 4px;">Architecture d'un
-                        moteur de simulation</p>
-                    <p style="font-size: 13px;">Structuration d'un pipeline modulaire : entrée des conditions aux
-                        limites, résolution, post-traitement et visualisation.</p>
+                    <p style="font-size: 13px; font-weight: 600; color: #0d1f3c; margin-bottom: 4px;">Visualisation des
+                        contraintes</p>
+                    <p style="font-size: 13px;">Génération de cartes de chaleur et de représentations vectorielles pour
+                        interpréter les résultats de simulation.</p>
                 </div>
             </div>
 
@@ -265,10 +275,10 @@
                         conflits et maintenir l'historique du projet.</p>
                 </div>
                 <div>
-                    <p style="font-size: 13px; font-weight: 600; color: #0d1f3c; margin-bottom: 4px;">Validation
-                        scientifique</p>
-                    <p style="font-size: 13px;">Comparaison des résultats de simulation à des solutions analytiques
-                        connues pour vérifier la précision du modèle.</p>
+                    <p style="font-size: 13px; font-weight: 600; color: #0d1f3c; margin-bottom: 4px;">Travail d'équipe
+                        au cœur du projet</p>
+                    <p style="font-size: 13px;">Développement mené en étroite collaboration, avec des révisions croisées
+                        du code et des décisions de conception prises collectivement entre les trois coéquipiers.</p>
                 </div>
             </div>
         </div>
